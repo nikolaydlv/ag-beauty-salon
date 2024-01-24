@@ -308,7 +308,9 @@ body {
 }
 
 .footer__nav-list {
-
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
 }
 
 .footer__nav-item {
@@ -325,9 +327,24 @@ body {
 }
 
 .footer__nav-socials {
+	display: flex;
+	gap: 20px;
+}
 
+.footer__nav-title--hours{
+	padding: 0;
+}
+
+.footer__nav-title--socials {
+	padding: 0;
 }
 
 .footer__nav__social-icon {
 
 }
+
+.social__icon-img {
+	height: 36px;
+	width: 36px;
+}
+
