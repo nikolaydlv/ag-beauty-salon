@@ -199,11 +199,10 @@ body {
 }
 
 .brand__logo--img {
+	height: 98px;
+	width: 200px;
 	opacity: 0.5;
 }
-
-
-
 
 
 .section__works {
